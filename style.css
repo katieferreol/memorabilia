@@ -1,0 +1,358 @@
+body {
+  background-color: ##03041b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #03041b, #090f47, #223bce, #090f47, #03041b);
+  margin: 0;
+  padding: 0;
+}
+
+div.home {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+ul.home {
+  width: 100%;
+  column-count:5;
+  column-gap: 0;
+  background-color: black;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  opacity: 80%;
+  padding: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+ul.learnmore {
+  width: 100%;
+  column-count:0;
+  column-gap: 0;
+  background-color: #d3494e;
+  margin-top: 0;
+  margin-bottom: .05%;
+  text-align: center;
+  padding: 1%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+li {
+  display: block;
+  width: 100%;
+}
+
+a.learnmore {
+  color: white;
+}
+
+a.select:hover, a.select:active {
+   background-color: yellow;
+   color: black;
+   text-align: center;
+}
+
+a.select:link, a.select:visited {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    background-color: black;
+    padding: 3% 15%;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 70%;
+}
+
+a.select:hover, a.selecta {
+  font-family: 'Manrope', sans-serif;
+  background-color: block;
+  padding: 3% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 100%;
+}
+
+div.video {
+  padding: 1%;
+  margin-bottom: 0;
+  background-image: url('glasses.jpg');
+}
+
+div.title {
+  line-height: 0;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  top: 0;
+  padding: 0.02vw;
+  color: white;
+}
+
+h2.title1 {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  color: white;
+}
+
+img.intro {
+  margin-bottom: 2vw;
+}
+
+p.intro1 {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-variant:
+  margin-top: 0;
+  margin-bottom: .2vw;
+  color: white;
+}
+
+p.intro2 {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 0;
+  margin-bottom: 25vw;
+  color: white;
+}
+
+li.description {
+  text-align: center;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+}
+
+p.description {
+  text-align: center;
+  margin-bottom:2vw;
+  margin-top: 3vw;
+  font-family: 'Manrope', sans-serif;
+}
+
+div.cast {
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: .5%;
+  padding-bottom: 2.5%;
+}
+
+ul.cast {
+  padding: 0;
+  width: 100%;
+  column-count:2;
+  column-gap: 0;
+  background-color: white;
+  margin-bottom: 0vw;
+  text-align: center;
+  margin-top: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img.cast1 {
+  margin-top: 2.5vw;
+  margin-right: 5vw;
+  float: right;
+  display: block;
+}
+
+img.cast {
+  margin-top: 2.5vw;
+  display: block;
+}
+
+h2.cast {
+  font-family: 'Manrope', sans-serif;
+  color: black;
+  margin-bottom: 3vw;
+}
+
+p.cast {
+  margin-top: 0;
+  margin-bottom: 2vw;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  color: black;
+  line-height: 2.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+p.cast1 {
+  margin-top: 0;
+  margin-bottom: 1vw;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  color: #8c8c8c;
+  line-height: 2.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+a.cast1 {
+  text-decoration: none;
+  color: #1a8cff;
+  margin-bottom: 2vw;
+}
+
+div.components {
+  background-color: black;
+  background-image: linear-gradient(to right, #223bce, #090f47, #03041b, black, black, black, black);
+  line-height: 2vw;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: .5%;
+  padding-bottom: 2.5%;
+  color: white;
+}
+
+p.components1 {
+  margin-top: 10vw;
+  margin-bottom: 2vw;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 2.5vw;
+}
+
+img.components {
+  float: right;
+}
+
+img.components1 {
+  float: left;
+  padding-left: 10%;
+}
+
+h2.components {
+  margin-bottom: 3vw;
+  color: white;
+}
+
+p.components {
+  line-height: 2.5vw;
+  color: #b3b3b3;
+  padding-left: 7%;
+  padding-right: 50%;
+  margin-bottom: 3vw;
+  text-align: left;
+}
+
+p.components2 {
+  line-height: 2.5vw;
+  color: #b3b3b3;
+  padding-left: 50%;
+  padding-right: 7%;
+  margin-bottom: 3vw;
+  text-align: right;
+}
+
+p.components4 {
+  line-height: 2.5vw;
+  color: #b3b3b3;
+  padding-left: 50%;
+  padding-right: 7%;
+  margin-bottom: 2vw;
+  text-align: right;
+}
+
+p.components5 {
+  line-height: 2.5vw;
+  color: #b3b3b3;
+  padding-left: 7%;
+  padding-right: 50%;
+  margin-bottom: 8vw;
+  text-align: left;
+}
+
+p.components3 {
+  line-height: 2.5vw;
+  color: #b3b3b3;
+  padding-left: 7%;
+  padding-right: 50%;
+  margin-bottom: 2vw;
+  text-align: left;
+}
+
+p.sponsored {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5vw;
+  color: black;
+}
+
+footer.sm {
+  text-align: center;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  background-color: white;
+}
+
+img.sm {
+  padding-bottom: 2vw;
+}
+
+a.sm:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+div {
+  text-align: center;
+}
+
+div.as_seen_on {
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: .5%;
+  padding-bottom: 2.5%;
+  margin: 0;
+  background-color: white;
+}
+
+h2.as_seen_on {
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 3vw;
+  color: black;
+}
+
+div.feedback {
+  background-color: black;
+  background-image: linear-gradient(to right, #223bce, #090f47, #03041b, black, black, black, black);
+  color: white;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: .5%;
+  padding-bottom: 2.5%;
+  margin: 0;
+}
+
+h2.carousel {
+  margin-bottom: 3vw;
+}
+
+div.carousel-inner {
+  background: none !important;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-color: none !important;
+   background-image:none !important;
+   filter:none !important;
+}
