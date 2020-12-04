@@ -9,12 +9,12 @@ div.home {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 9999;
 }
 
 ul.home {
   width: 100%;
-  column-count:5;
+  column-count:6;
   column-gap: 0;
   background-color: black;
   margin-bottom: 0;
@@ -82,6 +82,10 @@ a.select:hover, a.selecta {
   text-align: center;
   text-decoration: none;
   opacity: 100%;
+}
+
+img.select {
+  margin-top: .5vw;
 }
 
 div.video {
