@@ -5,6 +5,13 @@ body {
   padding: 0;
 }
 
+div.home {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 ul.home {
   width: 100%;
   column-count:5;
@@ -349,11 +356,4 @@ div.carousel-inner {
   background-color: none !important;
    background-image:none !important;
    filter:none !important;
-}
-
-div.home {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
